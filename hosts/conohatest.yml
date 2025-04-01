@@ -1,0 +1,10 @@
+general:
+  domain: &domain "sabertiger1997-test.com"
+  public: &wp_path "/var/www/public/wordpress"
+  platform_version: 9
+
+users:
+  - uid: 1013
+    username: sabertiger1997
+    sudoers: true
+    makedir_home: true
